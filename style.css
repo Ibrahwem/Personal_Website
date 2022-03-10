@@ -48,24 +48,13 @@ section{
     padding:1rem;
 }
 
-.btn{
-    padding:.7rem 3rem;
-    background:#333;
-    color:#fff;
-    cursor: pointer;
-    margin-top: 1rem;
-    font-size: 2rem;
-    border-radius: 5rem;
-}
+
 
 .btn i{
     padding:0 .5rem;
     font-size: 1.8rem;
 }
 
-.btn:hover{
-    background:var(--green);
-}
 
 .heading{
     text-align: center;
@@ -373,7 +362,6 @@ header .navbar ul li a:hover{
 
 .btn {
     background: #3498db;
-    margin-left: 20px;
     background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
     background-image: -moz-linear-gradient(top, #3498db, #2980b9);
     background-image: -ms-linear-gradient(top, #3498db, #2980b9);
