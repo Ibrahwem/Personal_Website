@@ -475,7 +475,22 @@ header .navbar ul li a:hover{
     }
  
  }
+@media (max-width:600px) {
 
+    html {
+        font-size: 50%;
+    }
+
+    .education-img {
+        width: 80%;
+
+    }
+
+    .code-giphy-img {
+        width: 75%;
+    }
+
+}
 @media (max-width:400px){
 
     header{
