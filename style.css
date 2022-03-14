@@ -42,8 +42,14 @@ body{
     background:#111;
     overflow-x: hidden;
     padding-left: 35rem;
+    text-align: center;
 }
-
+hr
+{
+    border-width: 10px;
+    border-style: dotted none none;
+    border-color: #EAF6F6;
+}
 section{
     min-height: 100vh;
     padding:1rem;
@@ -62,7 +68,6 @@ section{
     margin:0 6rem;
     font-size: 4rem;
     padding:1rem;
-    border-bottom: .1rem solid #fff4;
     color:#fff;
 }
 
@@ -111,6 +116,8 @@ header .navbar{
 
 header .navbar ul{
     list-style: none;
+    
+    width: 100%;
     padding:1rem 3rem;
 }
 
@@ -119,6 +126,7 @@ header .navbar ul li a{
     display: block;
     padding:1rem;
     margin:1.5rem 0;
+    text-decoration:none;
     background:#333;
     color:#fff;
     font-size: 2rem;
@@ -131,22 +139,24 @@ header .navbar ul li a:hover{
 .education-img
 {
     border-radius: 20px;
-    position: absolute;
-    left:120%;
     bottom: 5%;
 }
 .udemy_p
 {
-    font-size: large;
+    font-size: 2rem;
     color: #eee;
+    margin-top: 50%;
 }
-.code-giphy-img
+.skills
 {
-    position: absolute;
-    left:150%;
-    bottom: 30%;
-    height: 70%;
+    color: #eee;
+    font-size: 2rem;
 }
+.skills-row
+{
+    margin: 4px;
+}
+
 #menu{
     position: fixed;
     top:2rem; right:2rem;
