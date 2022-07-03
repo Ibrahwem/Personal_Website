@@ -12,6 +12,7 @@
     text-decoration: none;
     outline: none; border:none;
     text-transform: capitalize;
+    
     transition: all .2s linear;
 }
 
@@ -19,7 +20,13 @@
     background:var(--yellow);
     color:#333;
 }
-
+.spectrum-background {
+    background:
+        linear-gradient(red, transparent),
+        linear-gradient(to top left, lime, transparent),
+        linear-gradient(to top right, blue, transparent);
+    background-blend-mode: screen;
+}
 
 html{
     font-size: 62.5%;
@@ -43,6 +50,10 @@ body{
     overflow-x: hidden;
     padding-left: 35rem;
     text-align: center;
+}
+.bg_pr{
+ background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+animation: gradient 15s ease infinite;
 }
 hr
 {
